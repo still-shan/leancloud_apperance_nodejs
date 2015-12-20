@@ -5,5 +5,23 @@
     "express-ws": "^0.2.6",
     "leanengine": "^0.1.4",
     "weibo": "^0.6.11"
-  }
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "leancloud_rating_apperance_nodejs",
+  "description": "使用leancloud的云引擎和nodejs，用于和(processing)客户端之间收发微博数据的WebSocket server.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangw/leancloud_apperance_nodejs.git"
+  },
+  "author": "jimokanghanchao@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangw/leancloud_apperance_nodejs/issues"
+  },
+  "homepage": "https://github.com/zhangw/leancloud_apperance_nodejs#readme"
 }
